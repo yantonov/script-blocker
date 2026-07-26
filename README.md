@@ -1,4 +1,5 @@
-Tiny extension to block specific scripts declaratively without relying on browser or other extension support.
+# Declarative Script Blocker
 
+A tiny extension that blocks specific scripts through a declarative rule system, without depending on browser support or other extensions.
 
-Actually the idea is to keep under version control current list of rules
+Rules are stored as version-controlled configuration files, allowing transparent tracking, review, and reproducible updates.
