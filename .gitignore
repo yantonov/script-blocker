@@ -1,2 +1,5 @@
-# build artifacts
+# extension artifacts
 /target
+
+# generator binary artifacts
+/rule-generator/target

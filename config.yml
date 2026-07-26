@@ -1,0 +1,6 @@
+rules:
+  - initiator: "www.emu-land.net"
+    exclude:
+      - "||cdn.traffmovie.com"
+      - "||www.acint.net"
+      - "||yw.conidiafoggara.com"

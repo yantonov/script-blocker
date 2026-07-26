@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||cdn.traffmovie.com",
+      "resourceTypes": [
+        "script"
+      ],
+      "initiatorDomains": [
+        "www.emu-land.net"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||www.acint.net",
+      "resourceTypes": [
+        "script"
+      ],
+      "initiatorDomains": [
+        "www.emu-land.net"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||yw.conidiafoggara.com",
+      "resourceTypes": [
+        "script"
+      ],
+      "initiatorDomains": [
+        "www.emu-land.net"
+      ]
+    }
+  }
+]

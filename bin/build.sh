@@ -1,10 +1,9 @@
 #!/usr/bin/env sh
 set -o errexit -o nounset
 
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+PROJECT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 
-SRC_DIR="$PROJECT_ROOT/src"
+SRC_DIR="$PROJECT_ROOT/extension/src"
 TARGET_DIR="$PROJECT_ROOT/target"
 BUILD_DIR="$PROJECT_ROOT/.build"
 
