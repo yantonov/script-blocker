@@ -1,6 +1,6 @@
 # script-blocker
 
-Browser extension for blocking scripts using generated rules.
+A tiny extension that blocks specific scripts through a declarative rule system, without depending on browser support or other extensions.
 
 ## Table of Contents
 
